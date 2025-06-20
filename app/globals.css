@@ -92,3 +92,12 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* SearchFlow 브랜드 그라데이션 */
+.gradient-text {
+  background-image: linear-gradient(to right, #007bff, #7f00ff, #00bcd4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
